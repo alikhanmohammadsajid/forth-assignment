@@ -1,3 +1,4 @@
+  
 *{
     padding: 0;
     margin: 0;
@@ -131,5 +132,5 @@ nav ul li a:hover, a.active{
 }
 #thanks-note-area{
     display: none;
-    color: #db6f09;
+    color: olivedrab;
 }

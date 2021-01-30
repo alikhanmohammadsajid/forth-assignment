@@ -108,14 +108,15 @@
         </div>
     </main>
   </div>
-  <div id="thanks-note-area" >
+  <div id="thanks-note-area" class="position-absolute top-100 start-50 translate-middle">
     <div class="card text-center">
         
         <div class="card-body">
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7zQERzLnDlkJK2au8HGd265g8NtMCntPEZg&usqp=CAU' alt="">
           <h3 class="card-title">Thank you</h3>
           <p class="card-text">Congratulation your request has been proceed.Check your mailbox.</p>
-          <p class="card-text">click here to close.</p>
-          <a id="close-area" href="#" class="btn btn-primary">close</a>
+          <p class="card-text">Go to main menu</p>
+          <a id="close-area" href="#" class="btn btn-warning">OK</a>
         </div>
         
       </div>
@@ -170,7 +171,7 @@
             document.getElementById('total-amount').innerText = '$' + TotalAmount;       
         }
         const bookBtn = document.getElementById('book-now').addEventListener('click', function () {
-            const bookingArea = document.getElementById('booking-area').style.display = 'none';
+           
             const thanksNoteArea = document.getElementById('thanks-note-area').style.display = 'block';
         })
         const closeArea = document.getElementById('close-area').addEventListener('click', function () {
